@@ -4,6 +4,7 @@
 
 ## ABOUT THE TOOL:
 Download YouTube videos in MP3 and MP4 with this tool, with an easy to understand interface.
+This tool works with both, the rooted device and the non-rooted.
 
 ## INSTALLATION:
 ```
@@ -14,6 +15,6 @@ $ bash bashtube.sh
 
 ## CHANGE LOG:
 
-### <a href="http://github.com/TrollSkull/BashTube">Version 1.0</a>
+### Version 1.0 <a href="http://github.com/TrollSkull/BashTube">(version link)</a>
 
-_Initial version, no changes._
+_Initial version, no changes._ 
