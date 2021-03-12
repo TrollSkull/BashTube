@@ -6,5 +6,14 @@
 Download YouTube videos in MP3 and MP4 with this tool, with an easy to understand interface.
 
 ## INSTALLATION:
+```
+$ cd BashTube
+$ bash installer.sh
+$ bash bashtube.sh
+```
 
 ## CHANGE LOG:
+
+### <a href="http://github.com/TrollSkull/BashTube">Version 1.0</a>
+
+_Initial version, no changes._
