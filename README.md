@@ -22,7 +22,7 @@ O mira este video: <a href="http://github.com/TrollSkull/BashTube">(video de la 
 
 ## REQUIREMENTS
 - Storage access allowed. (For downloaded videos)
-- Storage 30 MB.
+- Storage 10 MB.
 - Internet.
 
 ## CHANGE LOG
