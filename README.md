@@ -8,10 +8,14 @@ This tool works with both, the rooted device and the non-rooted.
 
 ## INSTALLATION:
 ```
-$ pkg install -y git
-$ git clone https://github.com/TrollSkull/BashTube
-$ cd BashTube
-$ bash installer.sh
+$ pkg install -y git 
+
+$ git clone https://github.com/TrollSkull/BashTube 
+
+$ cd BashTube 
+
+$ bash installer.sh 
+
 $ bash bashtube.sh
 ```
 O mira este video: <a href="http://github.com/TrollSkull/BashTube">(video de la instalación)</a>
