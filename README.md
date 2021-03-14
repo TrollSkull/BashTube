@@ -27,6 +27,6 @@ O mira este video: <a href="http://github.com/TrollSkull/BashTube">(video de la 
 
 ## CHANGE LOG
 
-### Version 1.0 ### <a href="http://github.com/TrollSkull/BashTube">(version link)</a>
+#### Version 1.0  <a href="http://github.com/TrollSkull/BashTube">(version link)</a>
 
 _Initial version, no changes._ 
