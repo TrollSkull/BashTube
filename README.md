@@ -6,7 +6,7 @@
 Download YouTube videos or music in MP3 and MP4 with this tool, with an easy to understand interface.
 This tool works with both, the rooted device and the non-rooted.
 
-## INSTALLATION:
+## INSTALLATION (TERMUX)
 ```
 $ pkg install -y git 
 
