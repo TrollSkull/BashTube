@@ -18,15 +18,13 @@ $ bash installer.sh
 
 $ bash bashtube.sh
 ```
-O mira este video: <a href="http://github.com/TrollSkull/BashTube">(video de la instalación)</a>
-
+Or watch this video: <a href="http://youtube.com">(Video of the tool installation)</a>
 ## REQUIREMENTS
 - Storage access allowed. (For downloaded videos)
 - Storage 10 MB.
 - Internet.
 
 ## CHANGE LOG
-
 #### Version 1.0  <a href="http://github.com/TrollSkull/BashTube">(Release link)</a>
 
 _Initial version, no changes._ 
