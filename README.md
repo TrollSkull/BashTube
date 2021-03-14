@@ -14,6 +14,8 @@ $ cd BashTube
 $ bash installer.sh
 $ bash bashtube.sh
 ```
+O mira este video: <a href="http://github.com/TrollSkull/BashTube">(video de la instalación)</a
+
 ## REQUIREMENTS
 - Storage access allowed. (For downloaded videos)
 - Storage 30 MB.
