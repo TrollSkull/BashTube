@@ -8,6 +8,8 @@ This tool works with both, the rooted device and the non-rooted.
 
 ## INSTALLATION:
 ```
+
+$ pkg install -y git
 $ cd BashTube
 $ bash installer.sh
 $ bash bashtube.sh
