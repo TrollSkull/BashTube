@@ -25,6 +25,6 @@ Or watch this video: <a href="http://youtube.com">(Video of the tool installatio
 - Internet.
 
 ## CHANGE LOG
-#### Version 1.0  <a href="http://github.com/TrollSkull/BashTube">(Release link)</a>
+#### Version 1.0  <a href="https://github.com/TrollSkull/BashTube/releases/tag/v1.0">(Release link)</a>
 
 _Initial version, no changes._ 
