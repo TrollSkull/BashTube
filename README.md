@@ -18,7 +18,6 @@ $ bash installer.sh
 
 $ bash bashtube.sh
 ```
-Or watch this video: <a href="http://youtube.com">(Video of the tool installation)</a>
 ## REQUIREMENTS
 - Storage access allowed. (For downloaded videos)
 - Storage 10 MB.
