@@ -24,6 +24,6 @@ $ bash bashtube.sh
 - Internet.
 
 ## CHANGE LOG
-#### Version 1.0  <a href="https://github.com/TrollSkull/BashTube/releases/tag/v1.0">(Release link)</a>
+#### Version 1.0  <a href="https://github.com/TrollSkull/BashTube/releases/tag/v1.0">(Release link)</a> (añadir versión)
 
 _Initial version, no changes._ 
