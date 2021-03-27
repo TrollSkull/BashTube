@@ -8,5 +8,5 @@ echo -e ${R}"Version:   ${W}1.0"
 echo -e ${R}"Name:      ${W}BashTube"
 echo -e ${R}"Contact:   ${W}trollskull.contact@gmail.com"
 echo
-echo -e ${R}"If you find errors;please contact me.${W}"
+echo -e ${R}"If you find errors, please contact me.${W}"
 echo
