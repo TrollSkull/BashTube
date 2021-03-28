@@ -15,8 +15,6 @@ $ git clone https://github.com/TrollSkull/BashTube
 $ cd BashTube 
 
 $ bash installer.sh 
-
-$ bash bashtube.sh
 ```
 ## REQUIREMENTS
 - Storage access allowed. (For downloaded videos)
@@ -27,3 +25,9 @@ $ bash bashtube.sh
 #### Version 1.0  <a href="https://github.com/TrollSkull/BashTube/releases/tag/v1.0">(Release link)</a>
 
 _Initial version, no changes._ 
+
+#### Version 1.1 <a href="https://github.com/TrollSkull/BashTube/releases/tag/v1.1">(Release link)</a>
+- Updater changes
+- Added "change log" option
+- Changes in commands
+- Minor bug fixes
