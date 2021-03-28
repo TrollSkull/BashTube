@@ -50,7 +50,7 @@ do
 	    cd ..
             cd ..
 
-    elif [ "$entry" == "convert" ]; then
+    elif [ "$entry" == "download" ]; then
             call_banner
 
             cd src
@@ -62,12 +62,22 @@ do
 
             call_banner
 
+    elif [ "$entry" == "change log" ]; then
+            call_banner
+
+            cd src
+            cd options
+            bash change.sh
+
+            cd ..
+            cd ..
+
     elif [ "$entry" == "update" ]; then
 
             call_banner
 
 	    echo -e ${Y}"[!] ${W}It will be updated to the most recent version of the tool, if"
-	    echo "you already have the latest version, it will be downloaded again."
+	    echo "you already have the latest version, it will be downloaded again"
             echo
 
             read -p "[?] Do you wanna update the tool? (y/n): " update
@@ -86,13 +96,13 @@ do
                 exit
 
             elif [ "$update" == "n" ]||[ "$update" == "N" ]; then
-                echo -e ${Y}"[-] ${W}Update canceled."
+                echo -e ${Y}"[-] ${W}Update canceled"
                 sleep 2
 
                 call_banner
 
             else
-                echo -e ${R}"[!] ${W}That option does not exist."
+                echo -e ${R}"[!] ${W}That option does not exist"
                 sleep 2
 
                 call_banner
@@ -110,7 +120,7 @@ do
 
     elif [ "$entry" == "exit" ]; then
             echo
-            echo -e ${W}"Thanks for using ${R}BashTube${W}, I hope you enjoyed this tool. :)"
+            echo -e ${W}"Thanks for using ${R}BashTube${W}, I hope you enjoyed this tool :)"
 
             sleep 3
             clear
@@ -118,7 +128,7 @@ do
 
     else
             echo
-            echo -e ${R}"[!] ${W}Command not found, type ${R}help ${W}for commands."
+            echo -e ${R}"[!] ${W}Command not found, type ${R}help ${W}for commands"
             sleep 2
 
             call_banner
