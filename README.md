@@ -17,11 +17,9 @@ $ bash installer.sh
 ```
 
 #### YOU CAN UPDATE THE TOOL FROM IT
-```
->> update
 
->> y
-```
+Using `>> update` and `>> y`
+
 ## REQUIREMENTS
 - Storage access allowed. (For downloaded videos)
 - Storage 10 MB.
