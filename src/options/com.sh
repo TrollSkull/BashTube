@@ -10,11 +10,12 @@ C='\033[1;36m'
 
 echo -e ${R}"      COMMAND                        DESCRIPTION"
 echo -e ${W}"  ---------------       -------------------------------------"
-echo -e "   convert               Download videos"
+echo -e "   download              Download videos"
 echo -e "   update                Update the tool automatically"
 echo
 echo -e "   help                  Show this help panel"
 echo
+echo -e "   change log            Version change log"
 echo -e "   about                 Show information about this program"
 echo -e "   exit                  Exit the program"
 echo
