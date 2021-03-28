@@ -15,6 +15,13 @@ $ cd BashTube
 
 $ bash installer.sh 
 ```
+
+### YOU CAN UPDATE THE TOOL FROM IT
+```
+>> update
+
+>> y
+```
 ## REQUIREMENTS
 - Storage access allowed. (For downloaded videos)
 - Storage 10 MB.
