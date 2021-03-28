@@ -16,7 +16,7 @@ $ cd BashTube
 $ bash installer.sh 
 ```
 
-### YOU CAN UPDATE THE TOOL FROM IT
+#### YOU CAN UPDATE THE TOOL FROM IT
 ```
 >> update
 
