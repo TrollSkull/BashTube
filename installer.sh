@@ -53,11 +53,6 @@ echo -e ${GRE}"[+] ${W}Done!"
 
 sleep 2
 
-clear
-banner
+bash bashtube.sh
 
-echo -e "      Type ${R}$ bash bashtube.sh ${W}to run BashTube."
-echo
-
-sleep 4
 exit
