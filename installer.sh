@@ -16,6 +16,7 @@ clear
 rm -rf README.md
 rm -rf LICENSE
 rm -rf installer.sh
+rm -rf resources
 
 echo -e ${B}"[*] ${W}Storage access required for downloaded videos."
 
