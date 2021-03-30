@@ -40,6 +40,6 @@ _Initial version, no changes._
 - Minor bug fixes
 
 #### Version 1.2 <a href="https://github.com/TrollSkull/BashTube/releases/tag/v1.2">(Release link)</a>
-- Image downloader system
+- `Image downloader` system
 - Implemented bug exceptions
 - Changes to the image download system
