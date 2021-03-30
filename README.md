@@ -18,6 +18,9 @@ $ cd BashTube
 
 $ bash installer.sh 
 ```
+#### USAGE
+
+`$ bash bashtube.sh`
 
 #### YOU CAN UPDATE THE TOOL FROM IT
 
