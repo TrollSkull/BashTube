@@ -2,7 +2,7 @@
 
 # Tool Name: BashTube (Installer)
 # Author: TrollSkull
-# Date: 23/03/2021
+# Date: 29/03/2021
 
 R='\033[31m'
 GRE='\033[32m'
