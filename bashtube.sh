@@ -2,7 +2,7 @@
 
 # Tool Name: BashTube
 # Author: TrollSkull
-# Date: 23/03/2021
+# Date: 29/03/2021
 
 R='\033[31m'
 GRE='\033[32m'
@@ -33,6 +33,10 @@ function mv_videos () {
         mv *.mp4 /data/data/com.termux/files/home/storage/downloads
 }
 
+function mv_images () {
+        mv *.jpg /data/data/com.termux/files/home/storage/downloads
+}
+
 call_banner
 
 start="1" # Exit switch
@@ -46,19 +50,36 @@ do
 
 	    cd src
             cd options
-	    bash com.sh
+	    bash help.sh
+
 	    cd ..
             cd ..
 
-    elif [ "$entry" == "download" ]; then
+    elif [ "$entry" == "video" ]; then
             call_banner
 
             cd src
-            python core.py
+            cd core
+            python video.py
 
             mv_videos
 
 	    cd ..
+            cd ..
+
+            call_banner
+
+    elif [ "$entry" == "image" ]; then
+            call_banner
+
+            cd src
+            cd core
+            python image.py
+
+            mv_images
+
+	    cd ..
+            cd ..
 
             call_banner
 
