@@ -24,7 +24,7 @@ $ bash installer.sh
 Using `>> update` and `>> y`
 
 ## REQUIREMENTS
-- Storage access allowed. (For downloaded videos)
+- Storage access allowed. (For downloaded videos & images)
 - Storage 10 MB.
 - Internet.
 
