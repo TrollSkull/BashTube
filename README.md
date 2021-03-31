@@ -3,11 +3,10 @@
 
 ## ABOUT THE TOOL
 
-Download YouTube videos, music and images in MP4, JPG with this tool, with an easy to understand interface.
-This tool works with both, the rooted device and the non-rooted.
 
-<p align="left">
-<img src="/resources/about.gif" width="600" height="338"/></p>
+Download YouTube videos, music and images in MP4, JPG with this tool, with an easy to understand interface.
+
+This tool works with both, the rooted device and the non-rooted.
 
 ## INSTALLATION (TERMUX)
 ```
