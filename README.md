@@ -9,7 +9,7 @@ This tool works with both, the rooted device and the non-rooted.
 <p align="left">
 <img src="/resources/about.gif" width="600" height="338"/></p>
 
-## INSTALLATION (TERMUX) 📱
+## INSTALLATION (TERMUX)
 ```
 $ pkg install -y git 
 
