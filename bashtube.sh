@@ -93,6 +93,20 @@ do
             cd ..
             cd ..
 
+    elif [ "$entry" == "others" ]; then
+            call_banner
+
+            cd src
+            cd options
+            cd others
+            bash others.sh
+
+            cd ..
+            cd ..
+            cd ..
+
+            call_banner
+
     elif [ "$entry" == "update" ]; then
 
             call_banner
