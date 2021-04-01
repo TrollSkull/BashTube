@@ -10,6 +10,8 @@ This tool works with both, the rooted device and the non-rooted.
 
 ## INSTALLATION (TERMUX)
 ```
+$ pkg update && pkg upgrade -y
+
 $ pkg install -y git 
 
 $ git clone https://github.com/TrollSkull/BashTube 
