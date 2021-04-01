@@ -23,10 +23,13 @@ $ bash installer.sh
 #### USAGE
 ```
 $ bash bashtube.sh
-```
-#### You can update the tool from it
 
-Using `>> update` and `>> y`
+BashTube >> video (Or image)
+```
+And then paste the link of the video you want to download, the downloaded video will be in the Downloads folder.
+### You can update the tool from it
+
+Using `BashTube >> update` and `BashTube >> y`
 
 ## REQUIERIMENTS 📚
 - Storage access allowed. (For downloaded videos & images)
