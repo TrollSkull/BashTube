@@ -10,7 +10,7 @@ This tool works with both, the rooted device and the non-rooted.
 
 ## INSTALLATION (TERMUX)
 
-Watch tus vídeo about installation: <a href="https://youtu.be/LOeR8uS1Loc">youtube.com</a>
+Watch this video about installation: <a href="https://youtu.be/LOeR8uS1Loc">youtube.com</a>
 ```
 $ pkg update && pkg upgrade -y
 
