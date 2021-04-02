@@ -27,6 +27,8 @@ $ bash bashtube.sh
 BashTube >> video (Or image)
 ```
 And then paste the link of the video you want to download, the downloaded video will be in the Downloads folder.
+
+You can use the command `BashTube >> help` to see the other commands.
 ### You can update the tool from it
 
 Using `BashTube >> update` and `BashTube >> y`
