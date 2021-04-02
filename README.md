@@ -9,6 +9,8 @@ Download YouTube videos, music and images in MP4, JPG with this tool, with an ea
 This tool works with both, the rooted device and the non-rooted.
 
 ## INSTALLATION (TERMUX)
+
+Watch tus vídeo about installation: <a href="https://youtu.be/LOeR8uS1Loc">youtube.com</a>
 ```
 $ pkg update && pkg upgrade -y
 
