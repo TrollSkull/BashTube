@@ -11,7 +11,7 @@ This tool works with both, the rooted device and the non-rooted.
 ## INSTALLATION (TERMUX)
 
 #### Watch this video about installation: <a href="https://youtu.be/LOeR8uS1Loc">www.youtube.com</a>
-```
+```bash
 $ pkg update && pkg upgrade -y
 
 $ pkg install -y git 
@@ -23,7 +23,7 @@ $ cd BashTube
 $ bash installer.sh 
 ```
 #### USAGE
-```
+```bash
 $ bash bashtube.sh
 
 BashTube >> video (Or image)
