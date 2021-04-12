@@ -22,3 +22,8 @@ echo "- Now you can download images"
 echo "- Implemented bug exceptions"
 echo "- Changes to the image download system"
 echo
+echo -e ${R}"Version 1.3${W}"
+echo "- Added others option"
+echo "- Changes in commands"
+echo "- Minor bug fixes"
+echo
