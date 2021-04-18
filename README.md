@@ -38,12 +38,12 @@ You can use the command `BashTube >> help` to see the other commands.
 
 Using `BashTube >> update` and `BashTube >> y`
 
-## REQUIERIMENTS 📚
+## REQUIERIMENTS
 - Storage access allowed. (For downloaded videos & images)
 - Storage 10 MB.
 - Internet.
 
-## CHANGE LOG 📜
+## CHANGE LOG
 #### Version 1.0.0  <a href="https://github.com/TrollSkull/BashTube/releases/tag/v1.0.0">(Release link)</a>
 
 _Initial version, no changes._ 
