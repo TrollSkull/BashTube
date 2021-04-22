@@ -44,4 +44,4 @@ Using `BashTube >> update` and `BashTube >> y`
 - Internet.
 
 ## CHANGE LOG
-To view the change log: <a href="https://github.com/TrollSkull/BashTube/blob/main/resources/README.changelog.md"> BashTube change log </a> <img src="/resources/youtube.jpg" width="22"/>
+To view the change log: <a href="https://github.com/TrollSkull/BashTube/blob/main/resources/README.changelog.md"> BashTube change log </a>
