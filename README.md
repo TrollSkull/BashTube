@@ -44,22 +44,4 @@ Using `BashTube >> update` and `BashTube >> y`
 - Internet.
 
 ## CHANGE LOG
-#### Version 1.0.0  <a href="https://github.com/TrollSkull/BashTube/releases/tag/v1.0.0">(Release link)</a>
-
-_Initial version, no changes._ 
-
-#### Version 1.1 <a href="https://github.com/TrollSkull/BashTube/releases/tag/v1.1.0">(Release link)</a>
-- Updater changes
-- Added `change log` option
-- Changes in commands
-- Minor bug fixes
-
-#### Version 1.2 <a href="https://github.com/TrollSkull/BashTube/releases/tag/v1.2.0">(Release link)</a>
-- `Image downloader` system
-- Implemented bug exceptions
-- Changes to the image download system
-
-#### Version 1.3 <a href="https://github.com/TrollSkull/BashTube/releases/tag/v1.3.0">(Release link)</a>
-- Added `others` option
-- Changes in commands
-- Minor bug fixes
+To view the change log: <a href="https://github.com/TrollSkull/BashTube/blob/main/resources/README.changelog.md"> BashTube change log </a> <img src="/resources/youtube.jpg" width="22"/>
