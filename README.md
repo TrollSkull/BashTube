@@ -7,6 +7,8 @@
 Download YouTube videos, music and images in MP4, JPG with this tool, with an easy to understand interface.
 
 This tool works with both, the rooted device and the non-rooted.
+  
+  - Tested on Termux.
 
 ## INSTALLATION (TERMUX)
 
