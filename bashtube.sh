@@ -30,11 +30,11 @@ function call_banner () {
 }
 
 function mv_videos () {
-        mv *.mp4 /data/data/com.termux/files/home/storage/downloads
+        mv *.mp4 $EXTERNAL_STORAGE
 }
 
 function mv_images () {
-        mv *.jpg /data/data/com.termux/files/home/storage/downloads
+        mv *.jpg $EXTERNAL_STORAGE
 }
 
 call_banner
