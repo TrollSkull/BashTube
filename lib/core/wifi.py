@@ -1,4 +1,5 @@
 from socket import gethostbyname, create_connection, error
+from lib.core.banner import Colors
 import sys
 
 def CheckWifi():
@@ -8,4 +9,4 @@ def CheckWifi():
         conexion.close()
 
     except error:
-        print("Check your internet connection.")
+        print(Colors.FAIL + "[BashTube] " + Colors.RESET + "Check your internet connection.")
