@@ -11,7 +11,8 @@ This tool work in both, the rooted device and non-rooted.
 
 ## SCREENSHOTS
 
-[ Screenshot here ]
+<img src="/resources/screenshot1.jpg" width="400" height="100"/>
+<img src="/resources/screenshot2.jpg" width="400" height="200"/>
 
 ## INSTALLATION
 
