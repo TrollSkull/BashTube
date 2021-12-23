@@ -1,9 +1,3 @@
-"""
-To do list
-
-    1- Add 'colorama' module for styles and colors.
-"""
-
 try:
     import os
     import sys
