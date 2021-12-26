@@ -41,8 +41,7 @@ class Main:
                         sys.exit(1)
                     else:
                         os.system("mv *.mp4 $EXTERNAL_STORAGE")
-                        LinuxRoute = os.system("echo $EXTERNAL_STORAGE")
-                        print(Colors.OK + "\n[BashTube] " + Colors.RESET + "Video moved to '" + LinuxRoute + "'.")
+                        print(Colors.OK + "\n[BashTube] " + Colors.RESET + "Video moved to '/BashTube/downloaded'.")
                         sys.exit(1)
                     
             except Exception as err:
