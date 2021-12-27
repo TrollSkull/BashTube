@@ -65,7 +65,7 @@ class Main:
                         os.system("mv *.mp4 $EXTERNAL_STORAGE")
                         Message = os.system('echo -e "Video moved to ${EXTERNAL_STORAGE}"')
                         
-                        print(Colors.OK + "\n[BashTube] " + Colors.RESET + Message)
+                        print(Colors.OK + "\n[BashTube] " + Colors.RESET + str.Message)
                         sys.exit(1)
 
             except Exception as err:
