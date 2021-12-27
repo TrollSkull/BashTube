@@ -62,18 +62,12 @@ class Main:
                             tener la ruta correcta a la que se movió y no tener que poner
                             cualquier ruta.
                         """
-
-                        ###########
-                        os.system("G='\033[32m'")
-                        os.system("W='\033[37m'")
-
                         os.system("mv *.mp4 $EXTERNAL_STORAGE")
-                        os.system('echo -e ${G}"[BashTube] ${W}Video moved to ${EXTERNAL_STORAGE}"')
-                        ###########
+                        Message = os.system('echo -e "Video moved to ${EXTERNAL_STORAGE}"')
                         
-                        #print(Colors.OK + "\n[BashTube] " + Colors.RESET + "Video moved to '/BashTube/downloaded'.")
+                        print(Colors.OK + "\n[BashTube] " + Colors.RESET + Message)
                         sys.exit(1)
-                    
+
             except Exception as err:
                 print(Colors.FAIL + "\n[BashTube] " + Colors.RESET + "An error has closed the program. (" + err + ")")
                 sys.exit(1)
