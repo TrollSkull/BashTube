@@ -13,7 +13,7 @@ def PrintBanner():
         print(Colors.WORKING + "   ___           __" + Colors.FAIL + "  ______     __            ")
         print(Colors.WORKING + "  / _ )___ ____ / /" + Colors.FAIL + " /_  __/_ __/ /  ___       ")
         print(Colors.WORKING + " / _  / _ `(_-</ _\ " + Colors.FAIL + " / / / // / _ \/ -_)      ")
-        print(Colors.WORKING + "/____/\_,_/___/_//_" + Colors.FAIL + " /_/  \_,_/_.__/\__/   " + Colors.RESET + "v2.0 A")
+        print(Colors.WORKING + "/____/\_,_/___/_//_" + Colors.FAIL + " /_/  \_,_/_.__/\__/   " + Colors.RESET + "v2.0 B")
         print(Colors.RESET)     
         print("[i] Press CTRL+C to stop the script.")
 
@@ -22,6 +22,6 @@ def PrintBanner():
         print(Colors.WORKING + "   ___           __" + Colors.FAIL + "  ______     __            ")
         print(Colors.WORKING + "  / _ )___ ____ / /" + Colors.FAIL + " /_  __/_ __/ /  ___       ")
         print(Colors.WORKING + " / _  / _ `(_-</ _\ " + Colors.FAIL + " / / / // / _ \/ -_)      ")
-        print(Colors.WORKING + "/____/\_,_/___/_//_" + Colors.FAIL + " /_/  \_,_/_.__/\__/   " + Colors.RESET + "v2.0 A")
+        print(Colors.WORKING + "/____/\_,_/___/_//_" + Colors.FAIL + " /_/  \_,_/_.__/\__/   " + Colors.RESET + "v2.0 B")
         print(Colors.RESET) 
         print("[i] Press CTRL+C to stop the script.")   
