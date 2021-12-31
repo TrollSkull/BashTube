@@ -11,8 +11,11 @@ This tool work in both, the rooted device and non-rooted.
 
 ## SCREENSHOTS
 
-<img src="/resources/screenshot1.jpg" width="400" height="100"/>
-<img src="/resources/screenshot2.jpg" width="400" height="200"/>
+<img src="/resources/screenshot2.jpg" width="500" height="250"/>
+  
+## GRAPHIC INTERFACE
+  
+  [ Work in progress... `(Release date: 01/01/2022)` ] 
 
 ## INSTALLATION
 
@@ -28,10 +31,6 @@ $ cd BashTube
 $ python bashtube.py
 ```
   
-## GRAPHIC INTERFACE
-  
-  [ Work in progress... `(Release date: 01/01/2022)` ] 
-
 ## USAGE
 
 Run `bashtube.py` and paste a `link` to start downloading.
