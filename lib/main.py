@@ -35,17 +35,19 @@ class Main:
 
                 with youtube_dl.YoutubeDL(YoutubeOptions) as ydl:
                     ydl.download([zxt])
+
+                    print(Colors.RESET)    
                     if sys.platform == "win32":
                         os.system("MOVE *.mp4 downloaded")
                         print(Colors.OK + "\n[BashTube] " + Colors.RESET + "Video moved to '/BashTube/downloaded'.")
                         sys.exit(1)
                     else:
-                        os.system("mv *.mp4 $EXTERNAL_STORAGE")
+                        os.system("mv *.mp4 downloaded")
                         print(Colors.OK + "\n[BashTube] " + Colors.RESET + "Video moved to '/BashTube/downloaded'.")
                         sys.exit(1)
                     
             except Exception as err:
-                print(Colors.FAIL + "\n[BashTube] " + Colors.RESET + "No link has been put.")
+                print(Colors.FAIL + "\n[BashTube] " + Colors.RESET + "An error has closed the program. (" + err + ")")
                 sys.exit(1)
 
         except KeyboardInterrupt:
