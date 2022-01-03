@@ -15,7 +15,7 @@ This tool work in both, the rooted device and non-rooted.
   
 ## GRAPHIC INTERFACE
   
-  [ Work in progress... `(Release date: 01/01/2022)` ] 
+
 
 ## INSTALLATION
 
