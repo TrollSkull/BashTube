@@ -15,7 +15,7 @@ This tool work in both, the rooted device and non-rooted.
   
 ## GRAPHIC INTERFACE
   
-
+<img src="/resources/graphic.png" width="500" height="300"/>
 
 ## INSTALLATION
 
@@ -30,7 +30,17 @@ $ cd BashTube
     
 $ python bashtube.py
 ```
+
+### INSTALLATION (GRAPHIC INTERFACE)
+```
+  Make you sure you have `Python 3` installed.
   
+  $ pkg install -y python
+
+  Then download the graphic interface here: https://github.com/TrollSkull/BashTube/releases/download/v2.0/BashTube.Graphic.Interface.v2.0B.G1.zip
+
+  UnZip the package and run the `bashtube.py` file
+```
 ## USAGE
 
 Run `bashtube.py` and paste a `link` to start downloading.
