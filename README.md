@@ -31,7 +31,7 @@ $ cd BashTube
 $ python bashtube.py
 ```
 
-### INSTALLATION (GRAPHIC INTERFACE)
+## INSTALLATION (GRAPHIC INTERFACE)
 
 Make you sure you have `Python 3` installed.
 ```  
