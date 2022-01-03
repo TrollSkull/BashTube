@@ -37,7 +37,7 @@ Make you sure you have `Python 3` installed.
 ```  
 $ pkg install -y python
 ```
-Then download the graphic interface here: https://github.com/TrollSkull/BashTube/releases/tag/v2.0
+Then download the graphic interface here: https://github.com/TrollSkull/BashTube/releases/download/v2.0/BashTube.Graphic.Interface.v2.0.G1.zip
 
 UnZip the package and run the `bashtube.py` file
 
