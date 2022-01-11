@@ -47,7 +47,7 @@ class Main:
                         sys.exit(1)
                     
             except Exception as err:
-                print(Colors.FAIL + "\n[BashTube] " + Colors.RESET + "An error has closed the program. (" + err + ")")
+                print(Colors.FAIL + "\n[BashTube] " + Colors.RESET + "An error has closed the program.")
                 sys.exit(1)
 
         except KeyboardInterrupt:
