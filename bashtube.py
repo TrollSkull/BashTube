@@ -4,8 +4,6 @@
 # GitHub: https://github.com/TrollSkull/BashTube
 # Version: v2.0
 
-# Scanning up to 12 social networks!
-
 try:
     from lib.main import Main, main
     from lib.core.exceptions import BashTubeExceptions
