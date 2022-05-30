@@ -19,6 +19,8 @@ $ pkg install -y git python
 $ git clone https://github.com/TrollSkull/BashTube
 
 $ cd BashTube
+  
+$ pip3 install -r requirements.txt
     
 $ python bashtube.py
 ```
