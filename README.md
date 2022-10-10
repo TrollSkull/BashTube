@@ -25,4 +25,4 @@ $ python bashtube.py
 
 ### LICENCE
 
-**[MIT License © uScanner](https://github.com/TrollSkull/BashTube/blob/main/LICENSE)**
+**[MIT License © BashTube](https://github.com/TrollSkull/BashTube/blob/main/LICENSE)**
