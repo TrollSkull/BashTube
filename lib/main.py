@@ -1,26 +1,17 @@
-try:
-    import os
-    import sys
-    import time
-    import argparse
-    import youtube_dl
-    from lib.core.wifi import CheckWifi
-
-except Exception as err:
-    from lib.core.exceptions import BashTubeExceptions
-    raise BashTubeExceptions(str(err))
-
 class Main:
     try:
         from lib.core.exceptions import BashTubeExceptions
         from lib.core.wifi import CheckWifi
-        from lib.core.banner import PrintBanner
-        from lib.core.banner import Colors
-    except Exception as err:
-        import sys
+        from lib.core.utils import PrintBanner, MoveVideos, Colors
 
-        print(err, file=sys.stderr)
-        sys.exit(1)
+        import os
+        import sys
+        import time
+        import youtube_dl
+    except Exception as err:
+        from lib.core.exceptions import BashTubeExceptions
+        raise BashTubeExceptions(str(err))
+
 
     while True:
         try:
@@ -35,16 +26,7 @@ class Main:
 
                 with youtube_dl.YoutubeDL(YoutubeOptions) as ydl:
                     ydl.download([zxt])
-
-                    print(Colors.RESET)    
-                    if sys.platform == "win32":
-                        os.system("MOVE *.mp4 downloaded")
-                        print(Colors.OK + "\n[BashTube] " + Colors.RESET + "Video moved to '/BashTube/downloaded'.")
-                        sys.exit(1)
-                    else:
-                        os.system("mv *.mp4 downloaded")
-                        print(Colors.OK + "\n[BashTube] " + Colors.RESET + "Video moved to '/BashTube/downloaded'.")
-                        sys.exit(1)
+                    MoveVideos()
                     
             except Exception as err:
                 print(Colors.FAIL + "\n[BashTube] " + Colors.RESET + "An error has closed the program.")
