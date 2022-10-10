@@ -6,8 +6,6 @@
 [![License](https://img.shields.io/badge/License-MIT-yellow)]()
 
 Download videos from YouTube, Facebook, Instagram and many more with this tool! Written by **[TrollSkull](https://github.com/TrollSkull)** (**[@trskzzz](https://twitter.com/trskzzz)**)
-  
-This tool work in both, the rooted device and non-rooted.
 
 ## INSTALLATION
 
