@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 
-# Name: BashTube
-# GitHub: https://github.com/TrollSkull/BashTube
-# Version: v2.0
+# App name: BashTube
+# Author: TrollSkull
+# Github: https://github.com/TrollSkull
+# Version: 2.1
 
 try:
     from lib.main import Main, main
