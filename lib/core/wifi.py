@@ -1,5 +1,5 @@
 from socket import gethostbyname, create_connection, error
-from lib.core.banner import Colors
+from lib.core.utils import Colors
 import sys
 
 def CheckWifi():
