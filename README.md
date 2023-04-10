@@ -5,7 +5,7 @@
 [![Python](https://img.shields.io/badge/Made%20with-Python-blue)]()
 [![License](https://img.shields.io/badge/License-MIT-yellow)]()
 
-BashTube is a tool to download videos from YouTube, Facebook, Instagram and many more sites, written by **[TrollSkull](https://github.com/TrollSkull)** (**[@trskzzz](https://twitter.com/trskzzz)**). This script uses **[youtube_dl](https://pypi.org/project/youtube_dl/)** to download videos.
+BashTube is a tool to download videos from YouTube, written by **[TrollSkull](https://github.com/TrollSkull)** (**[@trskzzz](https://twitter.com/trskzzz)**). This script uses **[pytube](https://pytube.io/en/latest/)** to download videos.
 
 ## INSTALLATION
 
