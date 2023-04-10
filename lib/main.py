@@ -2,35 +2,60 @@ class Main:
     try:
         from lib.core.exceptions import BashTubeExceptions
         from lib.core.wifi import CheckWifi
-        from lib.core.utils import PrintBanner, MoveVideos, Colors
+        from lib.core.utils import PrintBanner, MoveVideos, CheckOSClear, Colors
+        from lib.core.downloader import DownloadVideo
+        from lib.core.updater import CheckVersion
+        import time, sys, configparser
 
-        import os
-        import sys
-        import time
-        import youtube_dl
+        CheckOSClear()
+        PrintBanner()
+        CheckWifi()
+
     except Exception as err:
         from lib.core.exceptions import BashTubeExceptions
         raise BashTubeExceptions(str(err))
 
-
     while True:
         try:
-            PrintBanner()
-            URL = input("Enter a URL to start downloading: ")
+            option = str(input(Colors.WORKING + "\nBashTube " + Colors.FAIL + "~# " + Colors.RESET))
+                
+            if option == "1":
 
-            try:
-                CheckWifi()
-                print(Colors.WORKING)    
-                YoutubeOptions = {}
-                zxt = URL.strip()
+                URL = input(Colors.FAIL + "\n[BashTube] " + Colors.RESET + "Enter a URL to start downloading: ")
 
-                with youtube_dl.YoutubeDL(YoutubeOptions) as ydl:
-                    ydl.download([zxt])
+                try:
+                    CheckWifi()
+                    print(Colors.WORKING)  
+
+                    DownloadVideo(URL)
                     MoveVideos()
-                    
-            except Exception as err:
-                print(Colors.FAIL + "\n[BashTube] " + Colors.RESET + "An error has closed the program.")
-                sys.exit(1)
+                        
+                except Exception as err:
+                    print(Colors.FAIL + "\n[BashTube] " + Colors.RESET + "An error has closed the script.")
+                    print(err)
+                    sys.exit(1)
+
+            elif option == "2":
+                CheckVersion()
+
+            elif option == "3":
+                CONF = input(Colors.OK + "\n[BashTube] " + Colors.RESET + "Set a video quality (720p, 480p, etc.): ")
+                
+                config = configparser.ConfigParser()
+                config['Script Configuration'] = {'videoQuality': CONF}
+
+                print(Colors.OK + "[BashTube] " + Colors.RESET + "User quality configuration changed to: " + CONF + ", saving...")
+                
+                with open('lib/.config', 'w') as configfile:
+                    config.write(configfile)
+
+            elif option == "4":
+                print(Colors.WORKING + "\n[BashTube] " + Colors.RESET + "Bye bye!")
+                sys.exit(0)
+
+            else:
+                print(Colors.FAIL + "\n[BashTube] " + Colors.RESET + "Command not found!")
+                time.sleep(2)
 
         except KeyboardInterrupt:
             print (Colors.WARNING + "\n[BashTube] " + Colors.RESET + "Keyboard interrupt detected, exiting.")

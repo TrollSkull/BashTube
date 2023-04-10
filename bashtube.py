@@ -3,7 +3,7 @@
 # App name: BashTube
 # Author: TrollSkull
 # Github: https://github.com/TrollSkull
-# Version: 2.1
+# Version: 3.0
 
 try:
     from lib.main import Main, main
