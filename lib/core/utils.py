@@ -23,12 +23,10 @@ def MoveVideos():
     if sys.platform == "win32":
         os.system("MOVE *.mp4 downloaded")
         print(Colors.OK + "\n[BashTube] " + Colors.RESET + "Video moved to '/BashTube/downloaded'.")
-        sys.exit(1)
 
     else:
         os.system("mv *.mp4 downloaded")
         print(Colors.OK + "\n[BashTube] " + Colors.RESET + "Video moved to '/BashTube/downloaded'.")
-        sys.exit(1)
 
 def PrintBanner():
     print(Colors.WORKING + "   ___           __ " + Colors.FAIL + " ______     __            ")
