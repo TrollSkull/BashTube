@@ -35,7 +35,7 @@ def PrintBanner():
     print(Colors.WORKING + "  / _ )___ ____ / / " + Colors.FAIL + "/_  __/_ __/ /  ___       ")
     print(Colors.WORKING + " / _  / _ `(_-</ _ \ " + Colors.FAIL + "/ / / // / _ \/ -_)      ")
     print(Colors.WORKING + "/____/\_,_/___/_//_/" + Colors.FAIL + "/_/  \_,_/_.__/\__/       ")
-
+    print(Colors.RESET)
     print(Colors.WORKING + "[" + Colors.RESET + "1" + Colors.WORKING + "] Download" + Colors.RESET + "           -   " + Colors.FAIL + "Download a video!")
     print(Colors.WORKING + "[" + Colors.RESET + "2" + Colors.WORKING + "] Update script" + Colors.RESET + "      -   " + Colors.FAIL + "Version (" + Colors.WORKING + Utils.TOOL_VERSION + Colors.FAIL + ")")
     print(Colors.WORKING + "[" + Colors.RESET + "3" + Colors.WORKING + "] Edit Configuration" + Colors.RESET + " -   " + Colors.FAIL + "Edit user configuration!" + Colors.RESET)
