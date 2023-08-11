@@ -1,4 +1,5 @@
 import requests
+import shutil
 import sys
 import os
 
@@ -22,15 +23,24 @@ def check_os_clear():
         os.system("clear")
 
 def move_videos():
+    videos_to_move = []
+
+    for file in os.listdir(path = os.getcwd()):
+        split_extension = file.split('.')
+
+        if file == os.path.isdir(file):
+            continue
+
+        else:
+            if split_extension[-1] == "mp4":
+                videos_to_move.append(file)
+
+    for video in videos_to_move:
+        shutil.move(src = video,
+                    dst = os.path.join(os.getcwd(), 'downloaded'))
+
     print(Colors.RESET)
-
-    if sys.platform == "win32":
-        os.system("MOVE *.mp4 downloaded")
-        print(Colors.OK + "\n[BashTube] " + Colors.RESET + "Video moved to '/BashTube/downloaded'.")
-
-    else:
-        os.system("mv *.mp4 downloaded")
-        print(Colors.OK + "\n[BashTube] " + Colors.RESET + "Video moved to '/BashTube/downloaded'.")
+    print(Colors.OK + "\n[BashTube] " + Colors.RESET + "Video moved to '/BashTube/downloaded'.")
 
 def print_banner():
     print(Colors.WORKING + "   ___           __ " + Colors.FAIL + " ______     __            ")
