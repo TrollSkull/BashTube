@@ -1,4 +1,6 @@
-import os, sys, requests
+import requests
+import sys
+import os
 
 class Colors:
     OK = '\033[92m'
@@ -8,16 +10,18 @@ class Colors:
     WORKING = '\033[34m'
 
 class Utils:
-    TOOL_VERSION = open("./lib/core/version", "r").read()
-    GIT_VERSION = requests.get("https://raw.githubusercontent.com/TrollSkull/SMSBOX/main/lib/core/version").text  
+    TOOL_VERSION = open("./lib/core/version", "r", encoding = "utf-8").read()
+    GIT_VERSION = requests.get(
+        "https://raw.githubusercontent.com/TrollSkull/SMSBOX/main/lib/core/version",
+        timeout = 60).text
 
-def CheckOSClear():
+def check_os_clear():
     if sys.platform == "win32":
         os.system("cls")
     else:
         os.system("clear")
 
-def MoveVideos():
+def move_videos():
     print(Colors.RESET)
 
     if sys.platform == "win32":
@@ -28,7 +32,7 @@ def MoveVideos():
         os.system("mv *.mp4 downloaded")
         print(Colors.OK + "\n[BashTube] " + Colors.RESET + "Video moved to '/BashTube/downloaded'.")
 
-def PrintBanner():
+def print_banner():
     print(Colors.WORKING + "   ___           __ " + Colors.FAIL + " ______     __            ")
     print(Colors.WORKING + "  / _ )___ ____ / / " + Colors.FAIL + "/_  __/_ __/ /  ___       ")
     print(Colors.WORKING + " / _  / _ `(_-</ _ \ " + Colors.FAIL + "/ / / // / _ \/ -_)      ")
